@@ -6,7 +6,7 @@
 HOME_DIRS=(
     ${HOME}/Documents
     ${HOME}/Pictures
-#    ${HOME}/Games
+    ${HOME}/Games
     ${HOME}/Micellaneous
     ${HOME}/Music
 )
@@ -16,7 +16,7 @@ KDE_DIRS=(
     ${HOME}/.local
 )
 
-MINECRAFT_DIR=${HOME}.var/app/com.modrinth.ModrinthApp/data/ModrinthApp/profiles/
+MINECRAFT_DIR=${HOME}\/.var/app/com.modrinth.ModrinthApp/data/ModrinthApp/profiles/
 
 #Create backup directories
 BACKUP_DIR="/mnt/Backups/$(date -I)"
