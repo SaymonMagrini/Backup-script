@@ -16,7 +16,7 @@ KDE_DIRS=(
     ${HOME}/.local
 )
 
-MINECRAFT_DIR=${HOME}\/.var/app/com.modrinth.ModrinthApp/data/ModrinthApp/profiles/
+MINECRAFT_DIR=${HOME}\/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/
 
 #Create backup directories
 BACKUP_DIR="/mnt/Backups/$(date -I)"
